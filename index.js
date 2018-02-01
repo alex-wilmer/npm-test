@@ -1,5 +1,4 @@
-module.exports = {
-  chun(x){
+module.exports = function(x){
     let y = x.split(' ').join().split('');
     for(let i=0; i < y.length; i+2){
       if(i >= y.length){
@@ -9,4 +8,3 @@ module.exports = {
       }
     }
   }
-}
